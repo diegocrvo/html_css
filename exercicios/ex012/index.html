@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506e6a;
+        }
+
+        .menu {
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .imagem_leo {
+            grid-column-start: 1;
+            grid-column-end: 4;
+        }
+
+        .principal {
+            grid-column-start: 5;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #506e6a;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506e6a;
+        }
+
+        a, a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #506e6a 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #506e6a;
+            color: white;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .imagem_leo {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Biografia Leonardo da Vinci</h1>
+        <br>
+    </header>
+    <nav class="container menu">
+        <ul>
+           <li><a href="index.html">Biografia</a></li> 
+           <li><a href="obras.html">Obras</a></li> 
+           <li><a href="curiosidades.html">curiosidades</a></li> 
+        </ul>
+    </nav>
+    <div class="container wrapper">
+        <aside class="imagem_leo">
+            <img src="images/leonardo-da-vinci.png">
+            <div class="infos">
+                <p><strong>Ocupação</strong> Pintor italiano</p>
+                <p><strong>Data de Nascimento</strong> 15/04/1452</p>
+                <p><strong>Data da Morte</strong> 02/05/1519 (Aos 67 anos)</p>
+            </div>
+        </aside>
+        <section class="principal">
+            <h1>Leonardo da Vinci</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam cupiditate earum hic, quam praesentium ut reprehenderit in aperiam, quo tenetur voluptate quas autem vero modi laborum? Nostrum consequuntur officiis eos?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quisquam temporibus libero perferendis maiores ab. Temporibus aliquam natus unde obcaecati aliquid molestias, quibusdam nihil quos dolores quaerat doloribus maiores officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit labore magni ipsam, id quasi iste officia eligendi, recusandae odio voluptate doloremque eum iure vel quod aliquam ratione distinctio ex quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ducimus nostrum sed velit neque voluptas magni dolores maiores ab. Nam fugit minima molestias minus? Mollitia dolor a atque necessitatibus at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, optio eius! Quas culpa facere eveniet ducimus ut quidem cupiditate, incidunt maxime doloremque alias unde earum officia porro quo sed! Enim, ex, cum magni veniam at commodi molestias modi, minus id laudantium sed velit soluta amet. Sed porro dolore fugit ratione accusantium repellat eos ea ipsum dolorem quo vero aliquid, odit vitae perspiciatis! At et fuga beatae laborum, asperiores quo corrupti nemo aut odio sit quaerat placeat deleniti dolorum sapiente vel illum? Tempora dignissimos blanditiis voluptatibus labore eius quidem obcaecati unde impedit ut ex esse, maxime minima amet ratione doloribus modi mollitia omnis. Velit excepturi dolore perferendis delectus illo? Voluptate nemo illum tenetur laboriosam sed. Dolore repellat error ad fugit laboriosam, adipisci iusto? Quos eius commodi ab maxime excepturi. Magni accusamus sequi molestias numquam ad in? Neque pariatur ratione repellendus repellat exercitationem illum quidem beatae eaque eligendi, modi numquam aliquid illo aperiam enim asperiores sunt incidunt nostrum optio quam voluptas veritatis blanditiis obcaecati quisquam. A ducimus fugit minus consequatur quia repellat est rem sequi, adipisci sint magnam excepturi temporibus error maiores ad, odio, doloremque voluptatum iste officia eius! Laboriosam facilis officia sunt ipsum quaerat est asperiores. Porro corrupti minus commodi praesentium, impedit id voluptatum totam voluptatibus alias incidunt itaque, saepe repellat vel omnis, asperiores tenetur numquam. Assumenda, asperiores officia expedita eligendi nisi autem libero, rerum sapiente eius omnis quia ipsam minima id perferendis enim eveniet natus, ipsum doloribus. Facere reprehenderit eius porro optio possimus, nisi architecto provident temporibus accusamus laboriosam? Incidunt architecto impedit vel, laborum veniam vitae laudantium optio vero illo ducimus id recusandae quasi nisi corporis minus perspiciatis tempora aspernatur dolore eius adipisci nemo perferendis beatae? Nobis, voluptatum. Quo quidem, nemo nisi provident iste maiores reprehenderit? Aliquid, praesentium ea! Necessitatibus laborum explicabo sunt soluta. Laboriosam modi iusto illum odit facilis!</p>
+        </section>
+    </div>
+    <footer class="container">
+    </footer>
+</body>
+</html>
