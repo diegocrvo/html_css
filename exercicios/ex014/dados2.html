@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Dados</title>
+</head>
+<body>
+    <h1>Dados</h1>
+    <label for="nome">Nome:</label>
+    <input type="text" name="nome" id="nome">
+    <br><br>
+    <label for="cidade">Cidade:</label>
+    <input type="text" name="cidade" id="cidade">
+    
+    <script>
+        // Recupera os valores armazenados em localStorage.
+        let nome = localStorage.getItem("nome");
+        let cidade = localStorage.getItem("cidade");
+
+        // Exibe os valores nos campos de texto.
+        document.getElementById("nome").value = nome;
+        document.getElementById("cidade").value = cidade;
+    </script>
+</body>
+</html>
